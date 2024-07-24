@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  padding: 1em;
+}
+
+.nav-item {
+  color: white;
+  padding: 0 1em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: #575757;
+}
+
+.form-container {
+  margin: 2em;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+input {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em;
+  width: calc(100% - 1em);
+}
